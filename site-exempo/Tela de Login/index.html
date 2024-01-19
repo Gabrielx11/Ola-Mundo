@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Formulários</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            background-image:url(image/pngtree-hot-sale-gradient-solid-geometry-colorful-overlay-picture-image_966242.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            opacity: 0.90;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-3"></div>
+            <div class="col-6">
+            <div class="card text-center" >
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs"  >
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-info"><a class="nav-link" href="#"><h6> Login </h6></a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-info"><a class="nav-link" href="cadastro.html"><h6> Cadastro </h6></a></button>
+                    </li>
+                    <li class="nav-item">
+
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+
+                  <h5 class="card-title">Tela de Login</h5>
+                  <p class="card-text">Faça aqui seu login.</p>
+
+                  <div class="container-fluid mb-3 col-8  text" tenctype="multipart/form-data">
+                    <label for="email" class="form-label "><span class="iconify" data-icon="mdi:email" data-width="20" data-height="22"></span> Email: </label>
+                    <input type="email" class="form-control tet" id="email" placeholder="Digite seu email" required>
+                  </div>
+
+                  <div class="container-fluid mb-3 col-8">
+                    <label for="password" class="form-label"><span class="iconify" data-icon="mdi:password" data-width="20" data-height="22"></span> Senha: </label>
+                    <input type="password" class="form-control" id="password" placeholder="Senha" required>
+                  </div>
+                  
+                  <!-- <button type="submit" class="btn btn-outline-success"><a href="#" class="btn btn-success"> Enviar Dados </a></button> -->
+                  <input type="submit" value="Entrar" class="btn btn-outline-success col-5" style="font-size: 25px; font-family: Arial, Helvetica, sans-serif; margin-top: 5px;">
+                  <input type="hidden" value="Enviar os dados">
+                  
+                  <div class="mb-3" style="margin-top: 15px;"><a href="#" style="color: green;">Esqueci minha senha </a></div>
+                  <div class="mb-3" style="margin-top: 10px;"><a href="cadastro.html" style="color: green;"> Cadastre-se </a></div>
+
+                </div>
+              </div></div>
+
+
+        </div>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</body>
+</html>
